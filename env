@@ -1,0 +1,17 @@
+# Token do bot Telegram (gerado no @BotFather)
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+
+# ID do chat (grupo ou canal) para envio das mensagens
+TELEGRAM_CHAT_ID=your_chat_id_here
+
+# Intervalo em segundos entre cada checagem nas páginas
+INTERVALO_SEGUNDOS=10
+
+# Número máximo de tentativas ao enviar mensagem no Telegram
+MAX_RETRIES=3
+
+# Tempo (em segundos) entre envios consecutivos de mensagens para evitar flood
+DELAY_ENTRE_ENVIOS=1.0
+
+# Nível de log: DEBUG, INFO, WARNING, ERROR, CRITICAL
+LOG_LEVEL=INFO
